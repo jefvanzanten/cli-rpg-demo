@@ -9,7 +9,7 @@
 	},
 	"scripts": {
 		"build": "tsc",
-		"dev": "tsc --watch",
+		"dev": "node --loader=ts-node/esm source/cli.tsx",
 		"test": "prettier --check . && xo && ava"
 	},
 	"files": [
