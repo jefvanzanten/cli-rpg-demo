@@ -1,0 +1,16 @@
+[
+	{
+		"name": "fireball",
+		"description": "",
+		"costMp": 10,
+		"targetRule": "single-enemy",
+		"priority": 1,
+		"effects": [
+			{
+				"effect": "damage",
+				"type": "attack",
+				"power": 20
+			}
+		]
+	}
+]
